@@ -76,5 +76,5 @@ id
 pkill Xorg
 sleep 2
 
-startx & disown
+startx >~/.startx.log 2>&1 </dev/null & disown
 sleep 10
